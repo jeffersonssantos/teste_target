@@ -1,14 +1,14 @@
 //exercicio 01
-let indice = 13;
+let indice = 22;
 let soma = 0;
 let k = 0;
 
 while (k < indice) {
-    k = k + 1; // Incrementa K
-    soma = soma + k; // Adiciona K à soma
+    k = k + 1; 
+    soma = soma + k;
 }
 
-console.log(soma); // Imprime o resultado da soma
+console.log(soma);
 
 
 //exercicio 02
@@ -38,7 +38,6 @@ pertenceFibonacci(numeroInformado);
 
 
 //exercicio 03
-// Função para calcular o faturamento
 function calcularFaturamento(faturamentoDiario) {
     
     if (faturamentoDiario.length === 0) {
@@ -151,7 +150,7 @@ function inverterString(str) {
     return stringInvertida;
 }
 
-const stringOriginal = "Hello, World!"; 
+const stringOriginal = "Olá, me chamo Jefferson Silva dos Santos!"; 
 const stringInvertida = inverterString(stringOriginal);
 
 console.log(`String original: ${stringOriginal}`);
